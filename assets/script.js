@@ -33,7 +33,7 @@ const telefone = document.querySelector("#telefone");
 const email = document.querySelector("#email");
 
 const modalNewCandidato = document.querySelector("#modal");
-const overFlow = document.querySelector("overflow");
+const overFlow = document.querySelector("#overflow");
 
 let choice = 0
 
@@ -66,7 +66,12 @@ function beforePerfil() {
     changePerfil(choice)
 }
 
-// function closeModal() {
-//     modalNewCandidato.attributes.style.display = "block"
+function closeModal() {
+    modalNewCandidato.style.display = "none";
+    overFlow.style.display = "none";
+}
 
-// }
+function openModal() {
+    modalNewCandidato.style.display = "block";
+    overFlow.style.display = "block";
+}

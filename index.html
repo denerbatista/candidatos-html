@@ -31,7 +31,7 @@
 
             <div id="buttons">
                 <button onclick="beforePerfil()"><</button>
-                <button>+</button>
+                <button onclick="openModal()">+</button>
                 <button onclick="nextPerfil()">></button>
             </div>
         </section>
@@ -39,7 +39,7 @@
         <section id="modal">
             <div id="header-modal">
                 <h2>Adicionar Novo Candidato</h2>
-                <a>&#10060</a>
+                <a onclick="closeModal()">&#10060</a>
             </div>
 
             <div id="main-modal">
@@ -79,7 +79,7 @@
             </div>
         </section>
 
-        <!-- <div id="overflow"></div> -->
+        <div id="overflow"></div>
 
     </main>
 
