@@ -38,7 +38,6 @@ const overFlow = document.querySelector("#overflow");
 let choice = 0
 
 function changePerfil(indice) {
-
     image.src = candidatos[indice].image
     nome.innerText = candidatos[indice].name
     profissao.innerText = candidatos[indice].profession
