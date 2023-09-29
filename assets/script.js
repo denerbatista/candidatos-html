@@ -32,6 +32,9 @@ const nascimento = document.querySelector("#nascimento");
 const telefone = document.querySelector("#telefone");
 const email = document.querySelector("#email");
 
+const modalNewCandidato = document.querySelector("#modal");
+const overFlow = document.querySelector("overflow");
+
 let choice = 0
 
 function changePerfil(indice) {
@@ -62,3 +65,8 @@ function beforePerfil() {
     }
     changePerfil(choice)
 }
+
+// function closeModal() {
+//     modalNewCandidato.attributes.style.display = "block"
+
+// }
