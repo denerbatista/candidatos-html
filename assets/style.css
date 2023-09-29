@@ -131,6 +131,10 @@ fieldset {
     border: none
 }
 
+#input-date{
+    width: 169px;
+}
+
 #main-modal>form>button {
     align-self: center;
     margin-top: 40px;
